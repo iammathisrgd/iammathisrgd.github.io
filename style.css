@@ -1,61 +1,99 @@
-body {
-  font-family: 'Manrope', sans-serif;
-  font-size: 1em;
-  background-color: #1f2039;
+* {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    width: 100%;
 }
 
-a {
-  color: #242424;
-  text-decoration: none;
+h1,h2,h3 {
+    font-family:"Antic Didone";
 }
 
-em {
-  color: #a5b4fc;
-  font-style: normal;
+header h1 {
+    margin: 30px 0 20px 0;
+    text-align: center;
+    width: 20%;
 }
 
-h1 {
-  font-size: 3.5em;
-  color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
+.header-img {
+    width: 10%;
+    margin-left:470px;
 }
 
-h2 {
-  color: #f9f8ff;
+.header-container {
+    display: flex;
+    text-align: center;
 }
 
-p,
-li {
-  font-size: 1.1em;
-  color: #f9f8ff;
+.container-nav {
+    display: flex;
 }
 
-header,
-footer, nav {
-  background-color: white;
+nav {
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
 }
 
-.cta {
-  background: linear-gradient(#8e86b5, #acaeed);
-  color: white;
-  border-radius: 50px;
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px 0 10px;
+    white-space: nowrap;
 }
 
-a:hover {
-  text-decoration: underline;
+nav a:hover {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px 0 10px;
+    white-space: nowrap;
+}
+.banniere {
+    margin:auto;
+    width: 100%;
+    height: 200px;
+    background-image: url("images/champs.jpeg");
+    background-position: center;
 }
 
-.cta:hover {
-  background: linear-gradient(#696484, #8788ba);
-  text-decoration: none;
+.main-hello {
+    font-size: 60px;
+    text-align: center;
 }
 
-.lien-icone:hover {
-  opacity: 0.5;
+.main-welcome {
+    font-size: 20px;
+    text-align: center;
 }
 
-.carre-contenu {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
+.container-main {
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.image-main{
+    width: 30%;
+    margin-left: 20%;
+}
+
+.paragraphe-main{
+    width: 30%;
+    margin: 70px 30px 50px 20px;
+}
+
+.paragraphe-main h1 {
+    font-size: 45px;
+}
+
+.paragraphe-main p {
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+}
