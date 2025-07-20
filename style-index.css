@@ -1,0 +1,154 @@
+h1, h2, h3{
+    font-family: "Antic Didone";
+}
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: rgb(249, 246, 242);
+    padding: 10px 0 10px 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+main {
+    margin: 20px 0 100px 0;
+}
+
+.welcome{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.welcome h1 {
+    font-size: 30px;
+}
+
+.welcome h2 {
+    font-size: 20px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.presentation-image {
+    width: 30%;
+    object-fit: contain;
+    margin-left: 15%;
+}
+
+.presentation-description {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 15%;
+    margin-top: 2%;
+    height: 50%;
+}
+
+.presentation-description-titre {
+    font-size: 30px;
+}
+
+.presentation-description-texte {
+    margin-bottom: 20%;
+    font-size: 15px;
+}
+
+.boutons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 20px 12px 20px;
+    border: 1px black solid;
+    width: 20%;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.btn-see-more {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.btn-see-more:hover {
+    background-color: white;
+    color: black;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.btn-linkedin {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.btn-linkedin::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+  z-index: -1;
+}
+
+.btn-linkedin:hover::after {
+  width: 100%;
+}
+
+.btn-linkedin:hover {
+  color: white;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+}

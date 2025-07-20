@@ -2,43 +2,51 @@
 <html lang="fr">
     <head>
         <title>Mathis Rigaud - ePortfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link href="style-index.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <header class="header-container">
-            <img class="header-img" src="images/pdp.jpeg" title="Photo de profil" alt="pdp">
+        <header>
             <h1>Mathis Rigaud</h1>
         </header>
+
         <nav>
-            <div class="container-nav">
-                <a href="engineering-course.html">Engineering Course</a>
-                <a href="career-development.html">Career Development</a>
-                <a href="international-mobility.html">International Mobility</a>
-                <a href="sustainability-and-civic-engagement.html">Sustainability and Civic engagement</a>
-                <a href="sport-and-other-activites.html">Sport and Other activities</a>
-            </div>
+            <a href="index.html">Welcome</a>
+            <a href="engineering-course.html">Engineering Course</a>
+            <a href="career-development.html">Career Development</a>
+            <a href="international-mobility.html">International Mobility</a>
+            <a href="sustainability-and-civic-engagement.html">Sustainability and Civic engagement</a>
+            <a href="sport-and-other-activites.html">Sport and Other activities</a>
         </nav>
+
         <main>
-            <div class="banniere"></div>
-            <h1 class="main-hello">Hello, I am Mathis Rigaud</h1>
-            <h3 class="main-welcome">Welcome to my ePortfolio</h3>
-            <div class="container-main">
-                <img class="image-main" src="images/rigaud_mathis.jpeg" title="Mathis Rigaud" alt="mathis-rigaud">
-                <div class="paragraphe-main">
-                    <h1>About me</h1>
-                    <p>
+            <section class="welcome">   
+                <h1>Hello, I am Mathis Rigaud</h1>
+                <h2>Welcome on my ePortfolio</h2>
+            </section>
+
+            <section class="presentation">
+                <img class="presentation-image" src="images/rigaud_mathis.jpeg" title="Mathis Rigaud" alt="rigaud_mathis">
+
+                <div class="presentation-description">
+                    <h1 class="presentation-description-titre">About me</h1>
+                    <p class="presentation-description-texte">
                         I studied in classe preparatoire in Angers in MPSI then PSI. 
                         Particularly interested by new technologies and computing, I joined ENSEEIHT at Toulouse in the Numerical Sciences department.<br>
                         <br>
                         I'm passionate about music, photography and reading, but being an engineer remains my biggest goal.
                     </p>
-                    <a href="career-development.html" class="btn btn-see-more">See more</a>
-                    <a href="https://www.linkedin.com/in/mathis-rigaud-b19232261/" class="btn btn-linkedin">LinkedIn ></a>
+
+                    <div class="boutons">
+                        <a href="career-development.html" class="btn btn-see-more">See more</a>
+                        <a href="https://www.linkedin.com/in/mathis-rigaud-b19232261/" class="btn btn-linkedin">LinkedIn ></a>
+                    </div>
                 </div>
-            </div>
+            </section>
         </main>
         <footer>
             <h1>Contact me</h1>
