@@ -39,3 +39,16 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+}

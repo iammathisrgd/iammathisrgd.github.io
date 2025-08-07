@@ -50,7 +50,7 @@ main {
     object-fit: contain;
 }
 
-.school-name {
+.school .school-name {
     background-color: rgba(247,247,247,0.7);
     position:absolute;
     top : 10px;
@@ -59,7 +59,7 @@ main {
     font-size: 20px;
 }
 
-.school-duration {
+.school .school-duration {
     background-color: rgba(247,247,247,0.7);
     position: absolute;
     top: 45px;
@@ -68,7 +68,7 @@ main {
     font-size: 15px;
 }
 
-.school-description {
+.school .school-description {
     width: 60%;
     background-color: rgba(247,247,247,0.7);
     position: absolute;
