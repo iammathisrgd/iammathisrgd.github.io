@@ -40,14 +40,15 @@ main {
     align-items: center;
 }
 .school {
-    width : 80%;
+    width : 70%;
     position: relative;
     margin-bottom: 40px;
     
 }
 
-.school img {
+.school .school-img {
     object-fit: contain;
+    max-width: 100%;
 }
 
 .school .school-name {
@@ -56,26 +57,26 @@ main {
     top : 10px;
     left: 10px;
     padding: 2px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .school .school-duration {
     background-color: rgba(247,247,247,0.7);
     position: absolute;
-    top: 45px;
+    top: 60px;
     left: 10px;
     padding: 2px;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .school .school-description {
     width: 60%;
     background-color: rgba(247,247,247,0.7);
     position: absolute;
-    bottom: 10px;
+    bottom: 13px;
     right: 10px;
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 footer {
