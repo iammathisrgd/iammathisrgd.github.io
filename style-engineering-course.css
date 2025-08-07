@@ -48,7 +48,6 @@ main {
 
 .school img {
     object-fit: contain;
-    position: absolute;
 }
 
 .school-name {
